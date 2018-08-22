@@ -18,7 +18,6 @@
 		- Show icon preview
 		- Text size: 16
 		- Click `Use as Defaults`
-	- [ ] 
 	- [ ] Turn on [view hidden files](https://gist.github.com/jglovier/f87661ad2d10fa747ad6fcbbf7224305)
 - [ ] Energy Saver: Turn off slightly dim display on battery power
 - [ ] Security
@@ -49,69 +48,66 @@
 	- [ ] Trello
 	- [ ] Ulysses
 - [ ] Browsers:
-	- [ ] [Blisk]()
-	- [ ] [Brave]()
-	- [ ] [Firefox](http://www.google.com/chrome/)
-	- [ ] [Firefox Nightly](http://www.google.com/chrome/)
+	- [ ] [Blisk](https://blisk.io/)
+	- [ ] [Brave](https://brave.com/)
+	- [ ] [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+	- [ ] [Firefox Nightly](https://www.mozilla.org/en-US/firefox/channel/desktop/)
 	- [ ] [Chrome](http://www.google.com/chrome/)
 		- [ ] Set to confirm on `Cmd Q` for Quit
 		- [ ] Log in and sync bookmarks and extensions
-	- [ ] [Safari Technology Preview]()
-	- [ ] [TorBrowser]()
+	- [ ] [Safari Technology Preview](https://developer.apple.com/safari/download/)
+	- [ ] [TorBrowser](https://www.torproject.org/download/download-easy.html.en)
+	- [ ] [Vivaldi](https://vivaldi.com/)
 - [ ] Non App Store:
-	- [ ] [1Password 7]()
+	- [ ] [1Password 7](https://1password.com/downloads/)
 	- [ ] [Adobe Creative Cloud](http://www.adobe.com/creativecloud.html)
-	- [ ] [Alfred 3]()
-	- [ ] [Calendly Click]()
-	- [ ] [Dash]()
-	- [ ] [Docker]()
+	- [ ] [Alfred 3](https://www.alfredapp.com/)
+	- [ ] [Dash](https://kapeli.com/dash)
+	- [ ] [Docker](https://www.docker.com/)
 	- [ ] [Dropbox](https://www.dropbox.com/install)
-	- [ ] [ExpressVPN]() for staying secure
+	- [ ] [ExpressVPN](https://www.expressvpn.com/) for staying secure
 	- [ ] [Fantastical 2](https://flexibits.com/fantastical)
+		- [ ] Configure accounts
 		- [ ] Check Appearance > Use color icon
-	- [ ] [ForkLift](https://panic.com/transmit/) for FTP use
-	- [ ] [Gas Mask]()
-	- [ ] [Hyper]()
-	- [ ] [ImageOptim](https://imageoptim.com/) for optimizing ALL OF THE PNGS/JPGS
+	- [ ] [ForkLift](https://binarynights.com/) for FTP use
+	- [ ] [Hyper](https://hyper.is/)
+	- [ ] [ImageOptim](https://imageoptim.com/) for optimizing images
 	- [ ] [iTerm2](https://www.iterm2.com/)
-	- [ ] [Kaleidoscope]()
+	- [ ] [Kaleidoscope](https://www.kaleidoscopeapp.com/)
 	- [ ] [Kap](https://getkap.co/) for recording gifs
-	- [ ] [Koa11y]()
-	- [ ] [MyHarmony]()
-	- [ ] [Postman]()
-	- [ ] [Renamer]()
-	- [ ] [Rocket]()
+	- [ ] [MyHarmony](https://setup.myharmony.com/) for my universal remote
+	- [ ] [Postman](https://www.getpostman.com/)
+	- [ ] [Renamer](https://renamer.com/)
+	- [ ] [Rocket](https://matthewpalmer.net/rocket/)
 	- [ ] [Sketch](http://www.sketchapp.com/)
-	- [ ] [SketchRunner](https://sketchrunner.com/)
-	- [ ] [Skype]()
-	- [ ] [Slack](https://slack.com/downloads/osx) *(need .com download for control sharing support)
-	- [ ] [Spotify]()
-	- [ ] [Themer]()
-	- [ ] [uBar]()
-	- [ ] [VirtualBox]()
-	- [ ] [Visual Studio Code](http://atom.io)
-	- [ ] [VLC]()
-	- [ ] [VMware Fusion]()
+		- [ ] [Fontily](https://github.com/partyka1/Fontily)
+		- [ ] [Sketch Measure](http://utom.design/measure/)
+	- [ ] [Skype](https://www.skype.com/en/get-skype/)
+	- [ ] [Slack](https://slack.com/downloads/osx)
+	- [ ] [Spotify](https://www.spotify.com/us/)
+	- [ ] [Themer](https://themer.mjswensen.com/)
+	- [ ] [uBar](https://brawersoftware.com/products/ubar)
+	- [ ] [VirtualBox](https://www.virtualbox.org/)
+	- [ ] [Visual Studio Code](https://code.visualstudio.com/)
+	- [ ] [VLC](https://www.videolan.org/vlc/index.html)
+	- [ ] [VMware Fusion](https://www.vmware.com/products/fusion/fusion-evaluation.html)
 
 ## CLI
 - [ ] Install Xcode command line tools
 - [ ] Install [Homebrew](https://brew.sh/)
-- [ ] Install [Bash-It]()
-	- [ ] Load `.bashrc`
+- [ ] Install [Bash-It](https://github.com/Bash-it/bash-it)
 	- [ ] Install or patch a [Nerd Font](https://github.com/ryanoasis/nerd-fonts/)
 - [ ] Configure Bash
 	- [ ] Load `.bash_profile`
 	- [ ] Load `.gitconfig` contents into global `~/.gitconfig`
 	- [ ] Load `.gitignore_global`
 - [ ] Set iTerm preferences
-	- [ ] Install [Yoncé theme](https://github.com/minamarkham/yonce/yonce.itermcolors)
 	- [ ] Set text to:
-		- Regular font: `16pt DankMono Nerd Font Complete`
-		- Non-ASCII font: `12pt Meslo LG L DZ Regular for Powerline`
+		- Regular font: `18pt Dank Mono Regular Nerd Font Complete`
 - [ ] Install NVM/Node
-	- [ ] Install nvm via Homebrew: `brew install nvm`.
-	- [ ] Download a version of Node via nvm (e.g., `nvm install 2.5.1`). See <https://gorails.com/setup/osx/10.11-el-capitan>.
-	- [ ] Make it the global version of Node: `nvm global 2.5.1`.
+	- [ ] Install [nvm](https://github.com/creationix/nvm).
+	- [ ] Download latest Node via nvm (e.g., `nvm install node`).
+	- [ ] Make it the global version of Node: `nvm use node`.
 
 ## Visual Studio Code
 - [ ] Enable `code` Terminal commands: `Command + Shift + P` and select `Shell Command: Install 'code' command in PATH`.

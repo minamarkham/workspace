@@ -16,8 +16,6 @@ setup/
 │  │  └─ folders--gradient/
 │  │
 │  ├─ themes/
-│  │  ├─ colorls/
-│  │  │  └─ …
 │  │  ├─ Custom.itermcolors
 │  │  └─ Monokai.alfredappearance
 │  │
