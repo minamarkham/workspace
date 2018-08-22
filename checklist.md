@@ -5,44 +5,64 @@
 - [ ] Setup Touch ID
 - [ ] Trackpad
 	- [ ] Turn off natural scrolling
+	- [ ] Uncheck `tap to click`
+- [ ] Desktop
+	- [ ] Snap to grid
+	- [ ] Hot Corners:
+		- [ ] Bottom Left: Disable Screensaver
+		- [ ] Bottom Right: Start Screensaver
 - [ ] Dock
+- [ ] Clock
+	- [ ] Show date
+	- [ ] Show seconds
+	- [ ] Flash separators
+- [ ] Battery
+	- [ ] Show percentage
+- [ ] Sound
+	- Show volume in menu bar
 - [ ] Finder
 	- [ ] Setup sidebar
-	- [ ] Setup [default arrangement view](https://howchoo.com/g/mzuxyjqyzmy/how-to-set-the-view-options-for-all-finder-windows-in-os-x)
-		- Arrange by: Kind
-		- Sort by: Name
-		- Date Modified
-		- Size
-		- Kind
-		- Use relative dates
-		- Show icon preview
-		- Text size: 16
-		- Click `Use as Defaults`
+	- [ ] Setup [default view](https://howchoo.com/g/mzuxyjqyzmy/how-to-set-the-view-options-for-all-finder-windows-in-os-x)
+		- [ ] Arrange by: Kind
+		- [ ] Sort by: Name
+		- [ ] Date Modified
+		- [ ] Size
+		- [ ] Kind
+		- [ ] Use relative dates
+		- [ ] Show icon preview
+		- [ ] Text size: 16
+		- [ ] Click `Use as Defaults`
+		- [ ] Show Path Bar
+		- [ ] Show Status Bar
+		- [ ] Add info and delete buttons to toolbar
 	- [ ] Turn on [view hidden files](https://gist.github.com/jglovier/f87661ad2d10fa747ad6fcbbf7224305)
 - [ ] Energy Saver: Turn off slightly dim display on battery power
 - [ ] Security
 	- [ ] Turn on FileVault disk encryption
 	- [ ] Set to require password immediately
 	- [ ] Turn on Firewall (?)
+- [ ] App Store
+	- [ ] Free: Save download
 
 ## Applications
 - [ ] App Store
-	- [ ] Bear
 	- [ ] Affinity Designer
 	- [ ] Affinity Photo
 	- [ ] Agenda
 	- [ ] Airmail 3
 		- [ ] Configure email accounts
+	- [ ] Bear
 	- [ ] Divvy _for window management_
 	- [ ] Dr. Cleaner Pro _for keeping my machine cruft free_
 	- [ ] Encrypto _for staying secure_
+	- [ ] Fantastical 2
+		- [ ] Configure accounts
+		- [ ] Check Appearance > Use color icon
 	- [ ] Gifox
-	- [ ] Highland 2
-	- [ ] Motif
+	- [ ] Kaleidoscope
 	- [ ] Paprika Recipe Manager 3
 	- [ ] Pixelmator
 	- [ ] Pocket
-	- [ ] Sip
 	- [ ] The Unarchiver
 	- [ ] Things
 	- [ ] Trello
@@ -62,24 +82,26 @@
 	- [ ] [1Password 7](https://1password.com/downloads/)
 	- [ ] [Adobe Creative Cloud](http://www.adobe.com/creativecloud.html)
 	- [ ] [Alfred 3](https://www.alfredapp.com/)
+		- [ ] Sync preferences
+		- [ ] Import theme
+	- [ ] [cDock](https://w0lfschild.github.io/app_cDock.html)
 	- [ ] [Dash](https://kapeli.com/dash)
 	- [ ] [Docker](https://www.docker.com/)
 	- [ ] [Dropbox](https://www.dropbox.com/install)
 	- [ ] [ExpressVPN](https://www.expressvpn.com/) for staying secure
-	- [ ] [Fantastical 2](https://flexibits.com/fantastical)
-		- [ ] Configure accounts
-		- [ ] Check Appearance > Use color icon
 	- [ ] [ForkLift](https://binarynights.com/) for FTP use
+		- [ ] Sync favorites
 	- [ ] [Hyper](https://hyper.is/)
+	- [ ] [HyperDock](https://bahoom.com/hyperdock/)
 	- [ ] [ImageOptim](https://imageoptim.com/) for optimizing images
 	- [ ] [iTerm2](https://www.iterm2.com/)
 	- [ ] [Karabiner](https://pqrs.org/osx/karabiner/)
-	- [ ] [Kaleidoscope](https://www.kaleidoscopeapp.com/)
 	- [ ] [Kap](https://getkap.co/) for recording gifs
 	- [ ] [MyHarmony](https://setup.myharmony.com/) for my universal remote
 	- [ ] [Postman](https://www.getpostman.com/)
 	- [ ] [Renamer](https://renamer.com/)
 	- [ ] [Rocket](https://matthewpalmer.net/rocket/)
+	- [ ] [Sip](https://sipapp.io/)
 	- [ ] [Sketch](http://www.sketchapp.com/)
 		- [ ] [Fontily](https://github.com/partyka1/Fontily)
 		- [ ] [Sketch Measure](http://utom.design/measure/)
@@ -98,11 +120,15 @@
 - [ ] Install [Homebrew](https://brew.sh/)
 - [ ] Install [Bash-It](https://github.com/Bash-it/bash-it)
 	- [ ] Install or patch a [Nerd Font](https://github.com/ryanoasis/nerd-fonts/)
+	- [ ] Install theme
+- [ ] Download & symlink dotfiles
 - [ ] Configure Bash
 	- [ ] Load `.bash_profile`
 	- [ ] Load `.gitconfig` contents into global `~/.gitconfig`
 	- [ ] Load `.gitignore_global`
-- [ ] Set iTerm preferences
+- [ ] Configure iTerm
+	- [ ] Sync preferences
+	- [ ] Install theme
 	- [ ] Set text to:
 		- Regular font: `18pt Dank Mono Regular Nerd Font Complete`
 - [ ] Install NVM/Node
@@ -112,6 +138,7 @@
 
 ## Visual Studio Code
 - [ ] Enable `code` Terminal commands: `Command + Shift + P` and select `Shell Command: Install 'code' command in PATH`.
+- [ ] Sync preferences
 - [ ] Install favorite extensions:
 	- [ ] [:emojisense:](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense)
 	- [ ] [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
