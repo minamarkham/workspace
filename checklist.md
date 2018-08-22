@@ -73,6 +73,7 @@
 	- [ ] [Hyper](https://hyper.is/)
 	- [ ] [ImageOptim](https://imageoptim.com/) for optimizing images
 	- [ ] [iTerm2](https://www.iterm2.com/)
+	- [ ] [Karabiner](https://pqrs.org/osx/karabiner/)
 	- [ ] [Kaleidoscope](https://www.kaleidoscopeapp.com/)
 	- [ ] [Kap](https://getkap.co/) for recording gifs
 	- [ ] [MyHarmony](https://setup.myharmony.com/) for my universal remote
