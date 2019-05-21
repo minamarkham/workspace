@@ -12,6 +12,10 @@
 		- [ ] Bottom Left: Disable Screensaver
 		- [ ] Bottom Right: Start Screensaver
 - [ ] Dock
+	- [ ] Configure cDock on personal machine
+	- [ ] Disable System Integrity Protection `csrutil disable`
+	- [ ] Enable System Integrity Protection after install complete `csrutil enable`
+	- [ ] Configure uBar on work machine
 - [ ] Clock
 	- [ ] Show date
 	- [ ] Show seconds
@@ -19,11 +23,10 @@
 - [ ] Battery
 	- [ ] Show percentage
 - [ ] Sound
-	- Show volume in menu bar
+	- [ ] Show volume in menu bar
 - [ ] Finder
 	- [ ] Setup sidebar
 	- [ ] Setup [default view](https://howchoo.com/g/mzuxyjqyzmy/how-to-set-the-view-options-for-all-finder-windows-in-os-x)
-		- [ ] Arrange by: Kind
 		- [ ] Sort by: Name
 		- [ ] Date Modified
 		- [ ] Size
@@ -57,7 +60,7 @@
 	- [ ] Encrypto _for staying secure_
 	- [ ] Fantastical 2
 		- [ ] Configure accounts
-		- [ ] Check Appearance > Use color icon
+		- [ ] Check Appearance > Hide Fantastical in menu bar
 	- [ ] Gifox
 	- [ ] Kaleidoscope
 	- [ ] Paprika Recipe Manager 3
@@ -73,6 +76,7 @@
 	- [ ] [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 	- [ ] [Firefox Nightly](https://www.mozilla.org/en-US/firefox/channel/desktop/)
 	- [ ] [Chrome](http://www.google.com/chrome/)
+		- [ ] Set as default browser
 		- [ ] Set to confirm on `Cmd Q` for Quit
 		- [ ] Log in and sync bookmarks and extensions
 	- [ ] [Safari Technology Preview](https://developer.apple.com/safari/download/)
@@ -80,11 +84,12 @@
 	- [ ] [Vivaldi](https://vivaldi.com/)
 - [ ] Non App Store:
 	- [ ] [1Password 7](https://1password.com/downloads/)
+		- [ ] Download browser extensions
 	- [ ] [Adobe Creative Cloud](http://www.adobe.com/creativecloud.html)
 	- [ ] [Alfred 3](https://www.alfredapp.com/)
 		- [ ] Sync preferences
 		- [ ] Import theme
-	- [ ] [cDock](https://w0lfschild.github.io/app_cDock.html)
+	- [ ] [cDock](https://w0lfschild.github.io/app_cDock.html) non-work machine
 	- [ ] [Dash](https://kapeli.com/dash)
 	- [ ] [Docker](https://www.docker.com/)
 	- [ ] [Dropbox](https://www.dropbox.com/install)
@@ -97,7 +102,7 @@
 	- [ ] [iTerm2](https://www.iterm2.com/)
 	- [ ] [Karabiner](https://pqrs.org/osx/karabiner/)
 	- [ ] [Kap](https://getkap.co/) for recording gifs
-	- [ ] [MyHarmony](https://setup.myharmony.com/) for my universal remote
+	- [ ] [MyHarmony](https://setup.myharmony.com/#600-series/) for my universal remote
 	- [ ] [Postman](https://www.getpostman.com/)
 	- [ ] [Renamer](https://renamer.com/)
 	- [ ] [Rocket](https://matthewpalmer.net/rocket/)
@@ -109,7 +114,7 @@
 	- [ ] [Slack](https://slack.com/downloads/osx)
 	- [ ] [Spotify](https://www.spotify.com/us/)
 	- [ ] [Themer](https://themer.mjswensen.com/)
-	- [ ] [uBar](https://brawersoftware.com/products/ubar)
+	- [ ] [uBar](https://brawersoftware.com/products/ubar) for work machine
 	- [ ] [VirtualBox](https://www.virtualbox.org/)
 	- [ ] [Visual Studio Code](https://code.visualstudio.com/)
 	- [ ] [VLC](https://www.videolan.org/vlc/index.html)
@@ -128,21 +133,21 @@
 	- [ ] Load `.gitignore_global`
 - [ ] Configure iTerm
 	- [ ] Sync preferences
-	- [ ] Install theme
+	- [ ] Install color theme
 	- [ ] Set text to:
 		- Regular font: `18pt Dank Mono Regular Nerd Font Complete`
+		- Non-ASCII font: `16pt Space Mono Regular Nerd Font Complete`
 - [ ] Install NVM/Node
 	- [ ] Install [nvm](https://github.com/creationix/nvm).
 	- [ ] Download latest Node via nvm (e.g., `nvm install node`).
-	- [ ] Make it the global version of Node: `nvm use node`.
+	- [ ] Make it the global version of Node: `nvm alias default <version>`.
 
 ## Visual Studio Code
-- [ ] Enable `code` Terminal commands: `Command + Shift + P` and select `Shell Command: Install 'code' command in PATH`.
-- [ ] Sync preferences
-- [ ] Install favorite extensions:
+- [ ] Enable `code` cli commands with `vsce`
+- [ ] Sync preferences: ([Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync))
+- [ ] Install favorite extensions (personal):
 	- [ ] [:emojisense:](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense)
 	- [ ] [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
-	- [ ] [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
 	- [ ] [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 	- [ ] [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 	- [ ] [Autoprefixer](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
@@ -151,7 +156,6 @@
 	- [ ] [Blank Line at the End of File](https://marketplace.visualstudio.com/items?itemName=riccardoNovaglia.missinglineendoffile)
 	- [ ] [Can I Use](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-caniuse)
 	- [ ] [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
-	- [ ] [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 	- [ ] [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 	- [ ] [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 	- [ ] [Dash](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-dash)
@@ -160,47 +164,43 @@
 	- [ ] [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 	- [ ] [Emoji Code](https://marketplace.visualstudio.com/items?itemName=idleberg.emoji-code)
 	- [ ] [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-	- [ ] [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)
 	- [ ] [File Peek](https://marketplace.visualstudio.com/items?itemName=abierbaum.vscode-file-peek)
 	- [ ] [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 	- [ ] [Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)
-	- [ ] [Hack](https://marketplace.visualstudio.com/items?itemName=pranayagarwal.vscode-hack)
 	- [ ] [Handlebars](https://marketplace.visualstudio.com/items?itemName=andrejunges.Handlebars)
 	- [ ] [highlight-matching-tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 	- [ ] [IntelliSense for CSS](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
-	- [ ] [JavaScript (ES6) Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 	- [ ] [Less Intellisense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-less)
 	- [ ] [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
-	- [ ] [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)
 	- [ ] [Monokai++](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
 	- [ ] [Nunjucks](https://marketplace.visualstudio.com/items?itemName=ronnidc.nunjucks)
 	- [ ] [Panda Theme](https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda)
 	- [ ] [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)
 	- [ ] [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-	- [ ] [phpcbf](https://marketplace.visualstudio.com/items?itemName=persoderlind.vscode-phpcbf)
 	- [ ] [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 	- [ ] [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 	- [ ] [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 	- [ ] [Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)
-	- [ ] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-	- [ ] [Smarty](https://marketplace.visualstudio.com/items?itemName=imperez.smarty)
 	- [ ] [Stylesheet Formatter](https://marketplace.visualstudio.com/items?itemName=dbalage.vscode-stylesheet-formatter)
 	- [ ] [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer)
 	- [ ] [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 	- [ ] [Vagrantfile Support](https://marketplace.visualstudio.com/items?itemName=marcostazi.VS-code-vagrantfile)
+	- [ ] [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens&WT.mc_id=vscodecandothat-dotcom-team)
 	- [ ] [VS Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
 	- [ ] [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
 	- [ ] [Webpack Progress](https://marketplace.visualstudio.com/items?itemName=wk-j.webpack-progress)
-	- [ ] [Wrap Selection](https://marketplace.visualstudio.com/items?itemName=konstantin.wrapSelection)
+- [ ] Install favorite extensions (work):
+	- [ ] [Hack](https://marketplace.visualstudio.com/items?itemName=pranayagarwal.vscode-hack)
+	- [ ] [Smarty](https://marketplace.visualstudio.com/items?itemName=imperez.smarty)
 
 ## GitHub
 - [ ] [Generate new SSH key](https://help.github.com/articles/generating-an-ssh-key/)
-- [ ] [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
 ## Backup
 - [ ] Configure TimeMachine and perform initial backup
-  - [ ] Turn off, and set Cal reminder to perform manually each week
+   - [ ] Turn off, and set Cal reminder to perform manually each week
 
 ## Misc
 - [ ] Install Fonts from backup fonts dir
 - [ ] Download music from Apple Music
+- [ ] Add Audible account to iTunes
