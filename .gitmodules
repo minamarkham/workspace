@@ -1,0 +1,3 @@
+[submodule "icons/folders--gradient"]
+	path = icons/folders--gradient
+	url = git@github.com:una/gradient-folders.git
